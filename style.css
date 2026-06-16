@@ -17,9 +17,9 @@ body {
         background-color: aliceblue;
         margin-bottom: 10px;
         font-size: 17px;
-        width: 250px;
-        padding-top: 9px;
-        padding-bottom: 9px;
+        width: 260px;
+        padding-top: 12px;
+        padding-bottom: 12px;
         padding-right: 10px;
         padding-left: 15px;
         border-radius: 8px;
@@ -27,10 +27,10 @@ body {
         outline: 1px black;
     }
     .label1 {
-        font-size: 18px;
+        font-size: 17px;
         position: absolute;
         left: 1.3rem;
-        top: 6.4rem;
+        top: 6.6rem;
         color: rgba(0, 0, 0, 0.795);
         cursor: text;
         transition: 0.3s;
@@ -48,9 +48,9 @@ body {
         background-color: aliceblue;
         margin-bottom: 10px;
         font-size: 17px;
-        width: 250px;
-        padding-top: 9px;
-        padding-bottom: 9px;
+        width: 260px;
+        padding-top: 12px;
+        padding-bottom: 12px;
         padding-right: 10px;
         padding-left: 15px;
         border-radius: 8px;
@@ -58,17 +58,17 @@ body {
         outline: 1px black;
     }
     .label2 {
-        font-size: 18px;
+        font-size: 17px;
         position: absolute;
         left: 1.3rem;
-        bottom: 6.9rem;
+        bottom: 7.4rem;
         color: rgba(0, 0, 0, 0.795);
         cursor: text;
         transition: 0.3s;
     }
     .email:focus + .label2,
     .email:valid + .label2{
-        bottom: 8.1rem;
+        bottom: 8.8rem;
         left: 1rem;
         background-color: aliceblue;
     }
@@ -79,9 +79,9 @@ body {
         background-color: aliceblue;
         margin-bottom: 10px;
         font-size: 17px;
-        width: 250px;
-        padding-top: 9px;
-        padding-bottom: 9px;
+        width: 260px;
+        padding-top: 12px;
+        padding-bottom: 12px;
         padding-right: 10px;
         padding-left: 15px;
         border-radius: 8px;
@@ -89,17 +89,17 @@ body {
         outline: 1px black;
     }
     .label3 {
-        font-size: 18px;
+        font-size: 17px;
         position: absolute;
         left: 1.3rem;
-        bottom: 3.5rem;
+        bottom: 3.7rem;
         color: rgba(0, 0, 0, 0.795);
         cursor: text;
         transition: 0.3s;
     }
     .pass:focus + .label3,
     .pass:valid + .label3{
-        bottom: 4.7rem;
+        bottom: 5.1rem;
         left: 1rem;
         background-color: aliceblue;
     }
