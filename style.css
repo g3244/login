@@ -1,0 +1,148 @@
+body {
+    background-color: aliceblue;
+    outline: hidden;
+}
+.box {
+    position: absolute;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+.login {
+        font-size: 30px;
+}
+
+/*Mobile*/
+@media (max-width: 500px){
+    .user {
+        background-color: aliceblue;
+        margin-bottom: 10px;
+        font-size: 17px;
+        width: 250px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 15px;
+        border-radius: 8px;
+        border: solid 1px black;
+        outline: 1px black;
+    }
+    .label1 {
+        font-size: 18px;
+        position: absolute;
+        left: 1.3rem;
+        top: 6.4rem;
+        color: rgba(0, 0, 0, 0.795);
+        cursor: text;
+        transition: 0.3s;
+    }
+    .user:focus + .label1,
+    .user:valid + .label1{
+        top: 5.2rem;
+        left: 1rem;
+        background-color: aliceblue;
+    }
+    .div-user {
+        margin-bottom: 0.3rem;
+    }
+    .email{
+        background-color: aliceblue;
+        margin-bottom: 10px;
+        font-size: 17px;
+        width: 250px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 15px;
+        border-radius: 8px;
+        border: solid 1px black;
+        outline: 1px black;
+    }
+    .label2 {
+        font-size: 18px;
+        position: absolute;
+        left: 1.3rem;
+        bottom: 6.9rem;
+        color: rgba(0, 0, 0, 0.795);
+        cursor: text;
+        transition: 0.3s;
+    }
+    .email:focus + .label2,
+    .email:valid + .label2{
+        bottom: 8.1rem;
+        left: 1rem;
+        background-color: aliceblue;
+    }
+    .div-email {
+        margin-bottom: 0.3rem;
+    }
+    .pass {
+        background-color: aliceblue;
+        margin-bottom: 10px;
+        font-size: 17px;
+        width: 250px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 15px;
+        border-radius: 8px;
+        border: solid 1px black;
+        outline: 1px black;
+    }
+    .label3 {
+        font-size: 18px;
+        position: absolute;
+        left: 1.3rem;
+        bottom: 3.5rem;
+        color: rgba(0, 0, 0, 0.795);
+        cursor: text;
+        transition: 0.3s;
+    }
+    .pass:focus + .label3,
+    .pass:valid + .label3{
+        bottom: 4.7rem;
+        left: 1rem;
+        background-color: aliceblue;
+    }
+    a {
+        position: absolute;
+        position: relative;
+        left: 30px;
+        top: 0.8rem;
+    }
+    .btn {
+        position: relative;
+        position: absolute;
+        font-size: 18px;
+        bottom: -4rem;
+        left: 39%;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        border-radius: 10px;
+        border: solid 1px black;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .btn:hover {
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+    }
+    .btn:focus {
+        font-size: 20px;
+    }
+}
+
+/*Ipad*/
+@media (min-width: 501px) and (max-width: 768px){
+    body {
+        background-color: red;
+    }
+}
+
+/*Desktop*/
+@media (min-width: 769px){
+    
+}
