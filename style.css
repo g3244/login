@@ -13,8 +13,6 @@ body {
         font-size: 30px;
 }
 
-/*Mobile*/
-@media (max-width: 500px){
     .user {
         background-color: aliceblue;
         margin-bottom: 10px;
@@ -133,16 +131,3 @@ body {
     .btn:focus {
         font-size: 20px;
     }
-}
-
-/*Ipad*/
-@media (min-width: 501px) and (max-width: 768px){
-    body {
-        background-color: red;
-    }
-}
-
-/*Desktop*/
-@media (min-width: 769px){
-    
-}
