@@ -30,7 +30,7 @@ body {
         font-size: 17px;
         position: absolute;
         left: 1.3rem;
-        top: 6.6rem;
+        top: 6.7rem;
         color: rgba(0, 0, 0, 0.795);
         cursor: text;
         transition: 0.3s;
@@ -61,14 +61,14 @@ body {
         font-size: 17px;
         position: absolute;
         left: 1.3rem;
-        bottom: 7.4rem;
+        bottom: 7.5rem;
         color: rgba(0, 0, 0, 0.795);
         cursor: text;
         transition: 0.3s;
     }
     .email:focus + .label2,
     .email:valid + .label2{
-        bottom: 8.8rem;
+        bottom: 8.9rem;
         left: 1rem;
         background-color: aliceblue;
     }
@@ -92,7 +92,7 @@ body {
         font-size: 17px;
         position: absolute;
         left: 1.3rem;
-        bottom: 3.7rem;
+        bottom: 3.8rem;
         color: rgba(0, 0, 0, 0.795);
         cursor: text;
         transition: 0.3s;
